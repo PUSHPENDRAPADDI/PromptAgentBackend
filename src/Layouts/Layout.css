@@ -1,0 +1,38 @@
+.layout-container {
+    background-color: #272626;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    height: 92vh;
+    gap: 10px;
+}
+
+.left-panel {
+    /* background-color: #ffffff; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.center-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.workflow-builder {
+    flex-grow: 2;
+    /* background-color: #ffffff; */
+    padding: 10px;
+}
+
+.resizable-terminal {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.right-panel {
+    /* background-color: #ffffff; */
+    width: 17vw;
+    display: flex;
+    align-items: flex-start;
+}
