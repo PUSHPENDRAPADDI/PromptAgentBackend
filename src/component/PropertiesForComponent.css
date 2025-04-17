@@ -1,0 +1,43 @@
+.component-display-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.component-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.properties-container {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.property-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: default;
+  margin-top: 5px;
+}
+
+.property-button-delete {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: default;
+  margin-top: 5px;
+}

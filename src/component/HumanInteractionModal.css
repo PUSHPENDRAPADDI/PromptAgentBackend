@@ -1,0 +1,20 @@
+.input-box-HumanInteractionModal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: end;
+  border: 2px solid #007bff;
+  border-radius: 3px;
+}
+
+.input-field::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .input-field {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  

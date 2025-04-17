@@ -1,0 +1,24 @@
+.blue-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+  }
+  
+  .modal-title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004085;
+  }
+  
+  .modal-message {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  button.rounded-pill {
+    font-size: 1rem;
+    padding: 10px 24px;
+    border-radius: 50px;
+  }
+  
