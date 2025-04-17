@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# environment variables
+.env
+.env.*   # Ignore all environment-specific files like .env.local, .env.development.local, etc.
+
+# testing
+/coverage
+
+# production
+/dist
+
+# misc
+.DS_Store
+/.nx
+/.nx/cache
+/.vscode/*
+!/.vscode/extensions.json
+.idea
+
+# Optional eslint cache
+.eslintcache
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
